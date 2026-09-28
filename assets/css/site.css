@@ -271,6 +271,11 @@ a {
   font-size: 0.88rem;
 }
 
+.button.is-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Sections */
 
 .section {
